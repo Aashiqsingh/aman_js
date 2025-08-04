@@ -1,0 +1,18 @@
+There are three types of operators.
+1. unary operators
+    - it will required only one operand 
+    ex : a++
+2. binary operators
+    - it will required two operands
+    ex : a + b
+3. ternary operators
+     - it will required three operands
+     ex : a ? b : c
+
+
+Binary operators
+1. Airthmatic operators : + , - , * , / , % , **
+2. Assignment operator : = ,{{ += , -= , *= , /= , %= , **=}} - short hand property
+3. Relational operators : == , === , != , !== , < , > , <= , >=
+4. Logical operators : && , || , !
+5. Bitwise operators : & , | , ^ , ~ , << , >>
