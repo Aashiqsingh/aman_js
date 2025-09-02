@@ -9,9 +9,9 @@
 //     console.log("B is greater");
 // }
 
-let a = 25;
-let b = 24;
-let c = 22;
+// let a = 25;
+// let b = 24;
+// let c = 22;
 
 
 
@@ -43,4 +43,62 @@ let c = 22;
 //     else{
 //         console.log("C is greater");
 //     }
+// }
+
+let a = parseInt(prompt("Enter first number :"))
+let b = parseInt(prompt("Enter second number :"))
+let c = parseInt(prompt("Enter third number :"))
+
+sum = 0;
+
+if(a > 35){
+    sum = sum + a;
+}
+if(b > 35){
+    sum += b;
+}
+if(c > 35){
+    sum += c;
+}
+
+console.log(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(a > 35 && b > 35 && c > 35){
+//     console.log(a+b+c);
+    
+// }
+// else if(a > 35 && b > 35){
+//     console.log(a+b);
+    
+// }
+// else if(a > 35 && c > 35){
+//     console.log(a+c);
+// }
+// else if(b > 35 && c > 35){
+//     console.log(b+c);
+// }
+// else if(a > 35){
+//     console.log(a);
+// }
+// else if(b > 35){
+//     console.log(b);
+// }
+// else if(c > 35){
+//     console.log(c);
 // }
