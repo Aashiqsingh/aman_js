@@ -1,0 +1,8 @@
+find area of triangle
+find of reactagne
+find of square
+find of circle
+reverse number 
+reverse string
+find sum of digits
+find sum of numbers

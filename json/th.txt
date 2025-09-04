@@ -1,0 +1,11 @@
+JSON --> javascript object notation
+
+json is a format for storing data.
+
+var student ={
+    name: "Aman",
+    age: 19,
+    marks: 92
+}
+
+json : key : value pair
