@@ -1,0 +1,5 @@
+Java --> multi threded 
+
+javascript --> single threaded
+
+callback
