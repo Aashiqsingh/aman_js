@@ -25,3 +25,61 @@ budget
 if(){
     travel()
 }
+
+
+
+------------------------------------------------------
+welcome to atm
+let userPin = 6354
+
+const checkBal(){
+	let avlbal = 35000;
+	return avlbal
+}
+
+const deposit(cb){
+	Enter amount to deposit : 5000
+	msg : succefully deposited
+	let x= cb()
+	x = x + amount
+	msg : after deposited your avlbal is : 40000
+}
+
+const withdrwa(cb){
+	let ans = cb()
+	Enter amount to withdrwa : 10000
+	if(amount < ans)
+	{
+		succefully withdrwa
+		ans -= amount
+		after withdrwa ur amount will be : rest of amount
+	}
+	ele{
+		insufficent bal
+}
+}
+
+
+confirm : are you enter in atm or not?
+if yse{
+	Enter ur acc no : 
+	Enter pin :
+	if(pin == userpin){
+		prompt("1 for checkbal \n 2 for depos \n 3 for withdrw")
+		swicth(choice){
+			case 1: let x = checkBal()
+					console.log("total avlnal,x);
+					break;
+			case 2: deposit(checkBal)
+				break;
+			
+			case 3: withdrwa(checkbal)	
+		}
+	}	
+	else{
+		Invalid pin / invalid credential
+	}
+}
+else{
+	thankyou for visiting
+}
